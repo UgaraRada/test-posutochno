@@ -4,6 +4,7 @@
 ```
 npm install
 ```
+## 1 и 2 задания находятся в файлах task-1 и task-2
 
 ### Compiles and hot-reloads for development
 ```
