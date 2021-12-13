@@ -2,7 +2,15 @@
   <v-form
     @submit.prevent="submitForm"
   >
-    <h2 class="mb-2"> Изменение задачи </h2>
+    <div class="d-flex" >
+      <h2 class="mb-2 mr-auto"> Изменение задачи </h2>
+      <v-btn
+        icon
+        @click="$emit('modalVisible', false)"
+      >
+        <v-icon>mdi-close</v-icon>
+      </v-btn>
+    </div>
     <v-text-field
       outlined
       placeholder="Название"
