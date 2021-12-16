@@ -66,10 +66,8 @@
       </v-col>
     </v-row>
     <v-dialog
-      class="modalForm"
       v-model="modalVisible"
       hide-overlay
-      scrollable
       max-width="400"
     >
       <v-card
